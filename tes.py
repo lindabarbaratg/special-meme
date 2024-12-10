@@ -32,10 +32,10 @@ with open("x.csv", "r") as csv_file:
 
         
         
-            driver.get("https://www.wikiart.org/en/edit/john-constable/new")
+            driver.get(kw)
             time.sleep(5)
 
-            driver.get("https://www.wikiart.org/en/edit/john-constable/new")
+            driver.get(kw)
             time.sleep(6)
 
 
